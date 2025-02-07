@@ -32,7 +32,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002122152204'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS'-1002370487322')) # The movie you upload in it will be deleted from the bot.
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002370487322')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002122152204'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002429510787')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002370487322'))
